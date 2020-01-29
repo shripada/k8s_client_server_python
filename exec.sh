@@ -1,0 +1,1 @@
+kubectl exec -it $(kubectl get pods | awk '/client/') --container client -- bash
